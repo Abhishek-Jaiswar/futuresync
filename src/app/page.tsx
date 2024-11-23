@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Recomended from "./components/Recomended";
 
 export default function Home() {
   return (
@@ -18,8 +19,8 @@ export default function Home() {
         </div>
 
         {/* Recommended Section */}
-        <div className="w-full md:w-[30%] bg-red-400 p-4">
-          <h2 className="text-white text-lg font-bold">Recommended</h2>
+        <div className="w-full md:w-[30%] bg-white/50 p-4">
+          <Recomended />
         </div>
       </section>
     </main>
